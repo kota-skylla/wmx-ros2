@@ -1,6 +1,6 @@
 # WMX ROS2 Application
 
-**Note that this ROS2 application requires pre-installed `LMX`(WMX Linux runtime).**
+**Note that this ROS2 application requires pre-installed WMX Linux.**
 
 
 ### Dependencies for humble ( ubuntu 22.04)
@@ -25,7 +25,7 @@ sudo apt install -y ros-jazzy-graph-msgs \
 ```
 mkdir -p ~/wmx_ros2_ws/src
 cd ~/wmx_ros2_ws/src && \
-   git clone git@bitbucket.org:mvs_app/wmx_ros2_application.git
+   git clone https://github.com/movensys/wmx-ros2.git
 ```
 
 ## Build
